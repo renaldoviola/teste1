@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+  <Appenders>
+    <RollingFile name="RollingFile" fileName="proc-obc-solicitacao-compra.log" immediateFlush="true" append="true"
+                 filePattern="bkp_logs/integrador-%d{MM-dd-yyyy}-%i.log.gz">                 
+      <PatternLayout pattern="[%tid] %d{dd-MM-yyyy HH:mm:ss} - %level - %msg%n"/>
+      <Policies>
+        <SizeBasedTriggeringPolicy size="10 MB"/>
+      </Policies>
+      <DefaultRolloverStrategy max="20"/>
+    </RollingFile>
+
+    <Console name="sysout" target="SYSTEM_OUT">
+      <PatternLayout pattern="[%tid] %d{dd-MM-yyyy HH:mm:ss} - %level - %msg%n"/>
+    </Console>
+
+  </Appenders>
+  <Loggers>
+    <Root level="info">
+      <AppenderRef ref="RollingFile"/>
+      <AppenderRef ref="sysout"/>
+    </Root>
+  </Loggers>
+</Configuration>

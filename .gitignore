@@ -1,0 +1,12 @@
+/envio_dados_obc/envio_dados_bd_obc/envio-dados-obc.log
+/envio_dados_obc/envio_dados_erp_bd/envio-dados-bd.log
+/varre-dados-obc/.project
+/varre-dados-obc/.classpath
+/varre-dados-obc/.settings
+/pedido_compra_obc/proc-obc-pedido-compra.log
+/varre-dados-obc/proc-obc-carga-dados.log
+/gera-sdcv-obc/log/proc-obc-gerador-sdcv.log
+/envio_dados_obc/envio_dados_bd_obc/proc-obc-envio-dados.log
+/envio_dados_obc/envio_dados_erp_bd/proc-obc-carga-dados.log
+/solicitacao_compra/proc-obc-pedido-compra.log
+/solicitacao_compra/proc-obc-solicitacao-compra.log

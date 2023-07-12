@@ -1,0 +1,5 @@
+2020-12-16 13:01:08.560  INFO 12056 --- [restartedMain] b.com.agricopel.gerasdcvobc.Application  : Starting Application using Java 1.8.0_144 on ti09 with PID 12056 (C:\Desenvolvimento\integracao-obc\gera-sdcv-obc\target\classes started by ti09 in C:\Desenvolvimento\integracao-obc\gera-sdcv-obc)
+2020-12-16 13:01:08.563  INFO 12056 --- [restartedMain] b.com.agricopel.gerasdcvobc.Application  : No active profile set, falling back to default profiles: default
+2020-12-16 13:01:14.112  WARN 12056 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-16 13:01:14.659  INFO 12056 --- [restartedMain] b.com.agricopel.gerasdcvobc.Application  : Started Application in 6.5 seconds (JVM running for 7.049)
+2020-12-16 13:01:14.665  INFO 12056 --- [restartedMain] b.com.agricopel.gerasdcvobc.Application  : << Aplicacao iniciada >>
